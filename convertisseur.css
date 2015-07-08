@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+}
+
+#convertisseur {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -75px;
+    width: 400px;
+    height: 150px;
+    background-color: silver;
+    border: 1px solid grey;
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+#convertisseur .wrapper {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+#convertisseur #bitcoin-wrapper {
+    right: 0;
+}
+
+label {
+    display: block;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    font-size: 3em;
+}
+
+input {
+    text-align: right;
+}
+
+.coin {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /*left: 50%;
+    top: 50%;
+    margin: -50px;*/
+    top: -100px;
+}
+
+.coin.euro {
+    background: transparent url('euro.png') top left no-repeat;
+}
+
+.coin.bitcoin {
+    background: transparent url('bitcoin.png') top left no-repeat;
+}
